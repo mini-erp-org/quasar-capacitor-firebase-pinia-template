@@ -1,0 +1,19 @@
+{
+  "name": "quasar-capacitor-firebase-pinia-template",
+  "version": "0.0.1",
+  "description": "Quasar + Capacitor + Firebase + Pinia + Vite Templates",
+  "author": "Ali Nagy <alinagy50@gmail.com>",
+  "private": true,
+  "dependencies": {
+    "@capacitor-firebase/authentication": "^0.5.1",
+    "@capacitor/android": "^3.9.0",
+    "@capacitor/ios": "^3.9.0",
+    "@capacitor/app": "^1.1.1",
+    "@capacitor/cli": "^3.0.0",
+    "@capacitor/core": "^3.0.0",
+    "@capacitor/splash-screen": "^1.2.2",
+    "@capacitor/status-bar": "^1.0.8",
+    "@capacitor/storage": "^1.2.5",
+    "capacitor-plugin-safe-area": "^0.0.10"
+  }
+}

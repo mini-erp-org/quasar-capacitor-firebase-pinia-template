@@ -1,0 +1,19 @@
+{
+  "appId": "org.capacitor.quasar.app",
+  "appName": "Quasar Template",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www",
+  "plugins": {
+    "FirebaseAuthentication": {
+      "skipNativeAuth": true,
+      "providers": ["google.com", "facebook.com"]
+    },
+    "SplashScreen": {
+      "launchShowDuration": 3000,
+      "launchAutoHide": true,
+      "androidScaleType": "CENTER_INSIDE",
+      "backgroundColor": "#f6faf0"
+    }
+  }
+}
