@@ -1,6 +1,6 @@
 import { initializeApp } from 'firebase/app'
 import { getAnalytics } from 'firebase/analytics'
-import { getAuth } from 'firebase/auth'
+import { initializeAuth, browserLocalPersistence } from 'firebase/auth'
 import { getFirestore } from 'firebase/firestore'
 
 // Add your firebase web client configuration here.
@@ -17,7 +17,9 @@ const firebaseConfig = {
 const app = initializeApp(firebaseConfig)
 
 const analytics = getAnalytics(app)
-const auth = getAuth(app)
+const auth = initializeAuth(app, {
+  persistence: browserLocalPersistence
+})
 const firestore = getFirestore(app)
 
 export { analytics, auth, firestore }
