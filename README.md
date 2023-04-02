@@ -48,6 +48,7 @@ quasar build -m capacitor -T ios --ide
 4. [Register a Firebase Android applications.](https://github.com/capawesome-team/capacitor-firebase/blob/main/docs/firebase-setup.md#android)
 5. [Configure your social authentication providers.](https://github.com/capawesome-team/capacitor-firebase/tree/b8232674f885350e324f866fda43796c968585a6/packages/authentication)
 6. By default, I've added Facebook and Google, although they require additional configuration from: [Facebook](https://github.com/capawesome-team/capacitor-firebase/blob/b8232674f885350e324f866fda43796c968585a6/packages/authentication/docs/setup-facebook.md), [Google](https://github.com/capawesome-team/capacitor-firebase/blob/b8232674f885350e324f866fda43796c968585a6/packages/authentication/docs/setup-google.md).
+7. Configure Firebase Messaging for [iOS](https://github.com/capawesome-team/capacitor-firebase/tree/b8232674f885350e324f866fda43796c968585a6/packages/messaging#ios) and [Android](https://github.com/capawesome-team/capacitor-firebase/tree/b8232674f885350e324f866fda43796c968585a6/packages/messaging#android) respectively.
 
 ### Customize the configuration
 
