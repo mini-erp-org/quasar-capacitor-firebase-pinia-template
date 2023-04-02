@@ -15,5 +15,8 @@
       "androidScaleType": "CENTER_INSIDE",
       "backgroundColor": "#f6faf0"
     }
+  },
+  "ios": {
+      "contentInset": "never"
   }
 }
