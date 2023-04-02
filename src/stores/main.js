@@ -9,15 +9,12 @@ import { useI18n } from "vue-i18n";
 
 import { auth, firestore } from "boot/firebase";
 import {
-  doc,
-  setDoc,
-  getDoc,
   onAuthStateChanged,
   signOut,
   signInWithEmailAndPassword,
   createUserWithEmailAndPassword,
 } from "firebase/auth";
-import { doc, onSnapshot, getDoc } from "firebase/firestore";
+import { doc, onSnapshot, setDoc, getDoc } from "firebase/firestore";
 
 import en from "quasar/lang/en-US";
 
